@@ -1,0 +1,94 @@
+/* Container */
+.feedback-form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Form */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 16px;
+}
+
+/* Labels */
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Inputs & textarea */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #444;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #4fa3ff;
+}
+
+/* Textarea height */
+.form-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Button */
+.form-button {
+  padding: 12px;
+  background-color: #4fa3ff;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #3b8be0;
+}
+
+/* Response message */
+.feedback-response {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+#response.success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#response.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
